@@ -46,7 +46,7 @@ export default function StudentGrid() {
             onClick={() => handleClick(student)}
           >
             <CardContent className="p-6 text-center">
-              <Avatar className="w-16 h-16 mx-auto mb-4 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+              <Avatar className="w-20 h-20 mx-auto mb-4 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                 {student.avatar && (
                   <AvatarImage src={student.avatar} alt={student.name} />
                 )}
@@ -54,7 +54,7 @@ export default function StudentGrid() {
                   {student.initial}
                 </AvatarFallback>
               </Avatar>
-              <h3 className="font-black text-sm text-gray-900 dark:text-white leading-tight">
+              <h3 className="font-black text-xl text-gray-900 dark:text-white leading-tight">
                 {student.name}
               </h3>
             </CardContent>
