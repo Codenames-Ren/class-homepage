@@ -1,10 +1,9 @@
 "use client";
 
-import { Card, CardContent } from "./card";
-import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
+import { Card, CardContent } from "./ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { students, type Student } from "@/lib/data";
 import Swal from "sweetalert2";
-import { Car } from "lucide-react";
 
 export default function StudentGrid() {
   const handleClick = (student: Student) => {

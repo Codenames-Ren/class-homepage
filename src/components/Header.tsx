@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { MoonIcon, Sun } from "lucide-react";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 
 export default function Header() {
   const [isDark, setIsDark] = useState(false);

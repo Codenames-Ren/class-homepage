@@ -43,7 +43,7 @@ export const students: Student[] = [
 // Data carousel
 export const carouselData: Slide[] = [
   {
-    title: "Selamat Datang di Kelas XII-A",
+    title: "Documentation of SE-3",
     description: "Tempat foto kegiatan kelas akan ditampilkan di sini",
     bgColor: "bg-gradient-to-r from-blue-500 to-purple-600",
   },

@@ -1,6 +1,6 @@
-import Header from "@/components/ui/Header";
-import ClassCarousel from "@/components/ui/classCarousel";
-import StudentGrid from "@/components/ui/StudentGrid";
+import Header from "@/components/Header";
+import ClassCarousel from "@/components/classCarousel";
+import StudentGrid from "@/components/StudentGrid";
 
 export default function HomePage() {
   return (
