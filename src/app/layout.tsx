@@ -1,4 +1,3 @@
-// app/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -6,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Homepage Kelas XII-A",
-  description: "Homepage Kelas XII-A SMA Negeri 1 Jakarta",
+  title: "Seethree Homepage",
+  description: "Homepage Kelas TI24 SE 3 Global Institute",
 };
 
 export default function RootLayout({
