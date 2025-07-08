@@ -45,12 +45,12 @@ export const carouselData: Slide[] = [
   {
     title: "Documentation of SE-3",
     description: "Tempat foto kegiatan kelas akan ditampilkan di sini",
-    bgColor: "bg-gradient-to-r from-blue-500 to-purple-600",
+    bgColor: "bg-gradient-to-r from-blue-800 to-blue-500",
   },
   {
     title: "Kegiatan Pembelajaran",
     description: "Dokumentasi kegiatan belajar mengajar",
-    bgColor: "bg-gradient-to-r from-green-500 to-teal-600",
+    bgColor: "bg-gradient-to-r from-green-700 to-green-500",
   },
   {
     title: "Album Kelas",
