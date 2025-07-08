@@ -50,7 +50,7 @@ export default function StudentGrid() {
                 {student.avatar && (
                   <AvatarImage src={student.avatar} alt={student.name} />
                 )}
-                <AvatarFallback className="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-black text-xl">
+                <AvatarFallback className="bg-gradient-to-r from-blue-800 to-blue-500 text-white font-black text-xl">
                   {student.initial}
                 </AvatarFallback>
               </Avatar>
