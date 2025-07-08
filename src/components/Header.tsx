@@ -15,7 +15,7 @@ export default function Header() {
   }, [isDark]);
 
   return (
-    <header className="bg-gradient-to-r from-blue-600 to-purple-600 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] border-4 border-black">
+    <header className="bg-gradient-to-r from-blue-800 to-blue-500 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] border-4 border-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
           <div className="text-white">
